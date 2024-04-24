@@ -21,7 +21,8 @@ from django.urls import path
 
 
 def the_response(request):  # this request is the client's side
-    return HttpResponse("Hello, World in this pretty string")  # the response to the client
+    return HttpResponse("Hello, World in this pretty string")  # the response
+# to the client
 
 
 def another_page(request):  # here it's my home ''
