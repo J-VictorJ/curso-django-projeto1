@@ -1,10 +1,9 @@
 from django.http import HttpResponse
-
-# from django.shortcuts import render
+from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse("Hello, World in this pretty string")
+    return render(request, 'recipes/home.html')
 
 
 def contact(request): 
